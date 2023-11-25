@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musicify</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(to right, #1a1a1a, #333333);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+      .title {
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #66c2ff;
+      }
+      .slogan {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 20px;
+        color: #a0a0a0;
+      }
+      .detail {
+        font-size: 1.5rem;
+        max-width: 600px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        color: #ccc;
+      }
+      footer {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p {
+        position: fixed;
+        bottom: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #66c2ff;
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        color: #33adff;
+      }
+      @media screen and (max-width: 768px) {
+        .title {
+          font-size: 2.5rem;
+        }
+        .slogan {
+          font-size: 1.2rem;
+        }
+        .detail {
+          font-size: 1.2rem;
+        }
+      }
+      p::selection {
+        color: #fff;
+        background-color: #3498db;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Musicify</div>
+      <div class="slogan">Your Music, Your Way</div>
+      <main class="detail">
+        Musicify is a modern CRUD music API crafted by <strong>Atnaf Abebe</strong>. Manage your music collection effortlessly. Discover and organize
+        your favorite songs with style and ease.
+      </main>
+      <footer>
+        <p>
+          Copyright © 2023
+          <a href="https://github.com/atinafabebe1" title="Atnaf's Github" target="_blank">Atnaf Abebe</a>. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
