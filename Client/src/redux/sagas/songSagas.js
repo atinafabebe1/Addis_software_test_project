@@ -1,6 +1,6 @@
 import { put, takeLatest, call } from 'redux-saga/effects';
 import { fetchSongsAsync, createSongAsync, updateSongAsync, deleteSongAsync } from '../actions/songActions';
-import { fetchSongs, createSong, updateSong, deleteSong } from '../../api/harmonyAPI';
+import { fetchSongs, createSong, updateSong, deleteSong } from '../../api/musicify';
 
 // Fetch songs saga
 function* fetchSongsSaga() {

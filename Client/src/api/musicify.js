@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3501/musicify';
+const API_BASE_URL = 'https://addis-software-test-project-lnab.onrender.com/musicify';
 
 export const fetchSongs = async () => {
     try {

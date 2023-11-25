@@ -1,5 +1,5 @@
 import { createAsyncThunk, createAction } from '@reduxjs/toolkit';
-import { fetchSongs, createSong, updateSong, deleteSong } from '../../api/harmonyAPI';
+import { fetchSongs, createSong, updateSong, deleteSong } from '../../api/musicify';
 
 // Fetch songs
 export const fetchSongsAsync = createAsyncThunk('songs/fetchSongs', async () => {
